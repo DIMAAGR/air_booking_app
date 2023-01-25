@@ -1,3 +1,4 @@
+import 'package:air_booking_app/src/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -14,6 +15,10 @@ class MainApp extends StatelessWidget {
       title: 'AirBooking',
       routeInformationParser: Modular.routeInformationParser,
       routerDelegate: Modular.routerDelegate,
+      theme: ThemeData(
+        primaryColor: AppTheme.colors.primaryColor,
+        backgroundColor: AppTheme.colors.backgroundColor,
+      ),
     );
   }
 }
