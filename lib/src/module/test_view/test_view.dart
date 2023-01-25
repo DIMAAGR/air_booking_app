@@ -1,4 +1,4 @@
-import 'package:air_booking_app/src/shared/widgets/bottom_bar.dart';
+import 'package:air_booking_app/src/module/main_page/widget/bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 class TestView extends StatelessWidget {
