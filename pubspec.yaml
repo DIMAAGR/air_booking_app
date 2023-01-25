@@ -16,6 +16,7 @@ dependencies:
 
   flutter:
     sdk: flutter
+  fluentui_icons: ^1.0.0
 
 dev_dependencies:
   flutter_test:

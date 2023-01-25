@@ -1,3 +1,4 @@
+import 'package:air_booking_app/src/shared/widgets/bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 class TestView extends StatelessWidget {
@@ -11,6 +12,7 @@ class TestView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: testMessage),
       body: Center(child: testMessage),
+      bottomNavigationBar: ApplicationBottomBar(),
     );
   }
 }
