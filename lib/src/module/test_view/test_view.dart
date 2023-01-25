@@ -12,7 +12,7 @@ class TestView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: testMessage),
       body: Center(child: testMessage),
-      bottomNavigationBar: ApplicationBottomBar(),
+      bottomNavigationBar: const ApplicationBottomBar(),
     );
   }
 }
