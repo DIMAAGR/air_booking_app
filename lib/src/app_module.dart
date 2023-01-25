@@ -2,7 +2,6 @@
 // Application Main Module
 // =============================================================================
 
-import 'package:air_booking_app/src/core/routes/routes.dart';
 import 'package:air_booking_app/src/core/main/main_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
